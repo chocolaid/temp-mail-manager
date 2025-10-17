@@ -14,8 +14,8 @@ const port = process.env.PORT || 3000;
 const config = {
   browserTimeout: 30000,
   maxSessions: 100,
-  cleanupInterval: 3600000, // 1 hour
-  sessionLifetime: 86400000, // 24 hours
+  cleanupInterval: 3600000,
+  sessionLifetime: 86400000,
   isProduction: process.env.NODE_ENV === 'production'
 };
 
